@@ -28,8 +28,6 @@ def get_quote(key=""):
             return False
 
     def try_quote_request(quote_url, keyquery=""):
-        from time import sleep
-
         try:
             quote_response = requests.get(
                 f"{quote_url}?method=getQuote&lang=en&format=json{keyquery}", timeout=5
