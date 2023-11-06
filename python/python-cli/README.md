@@ -26,10 +26,10 @@ You can build a docker image and run it locally, provided you have the docker en
 
 ```bash
 docker build -t webapp . && \
-docker run --rm -p 8080:5000 webapp &
+docker run --rm -p 80:5000 webapp &
 
 # then
-curl -X GET http://127.0.0.1:8080
+curl http://127.0.0.1:80
 ```
 
 ## Prerequisites
@@ -50,9 +50,9 @@ You can install everything needed using pip in a virtual env:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername random-quote-picture-app.git 
+git clone [https://github.com/yourusername random-quote-picture-app.git](https://github.com/arichter-tc/senior-software-engineer-domains-application.git)
 
-cd python/python-webapp
+cd python/python-cli
 ```
 
 2. Usage

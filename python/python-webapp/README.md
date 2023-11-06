@@ -50,7 +50,7 @@ You can install everything needed using pip in a virtual env:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername random-quote-picture-app.git 
+git clone https://github.com/arichter-tc/senior-software-engineer-domains-application.git
 
 cd python/python-webapp
 ```

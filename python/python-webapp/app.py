@@ -30,7 +30,6 @@ def display_random_quote_and_picture():
             return False
 
     # quote request params
-
     # API endpoints for quote and picture
     quote_api = "http://api.forismatic.com/api/1.0/"
     key = request.args.get("key", "")
